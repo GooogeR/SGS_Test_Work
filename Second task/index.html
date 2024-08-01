@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGS_Test_work</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="myForm">
+        <label for="city">Город:</label>
+        <select id="city" name="city">
+            <option value="">Выберите город</option>
+            <option value="Moscow">Москва</option>
+            <option value="SaintPetersburg">Санкт-Петербург</option>
+            <option value="Krasnodar">Краснодар</option>
+        </select>
+        <br>
+
+        <label for="factory">Цех:</label>
+        <select id="factory" name="factory">
+            <option value="">Выберите цех</option>
+        </select>
+        <br>
+
+        <label for="employee">Сотрудник:</label>
+        <select id="employee" name="employee">
+            <option value="">Выберите сотрудника</option>
+        </select>
+        <br>
+
+        <label for="team">Бригада:</label>
+        <select id="team" name="team">
+            <option value="Team1">Бригада 1</option>
+            <option value="Team2">Бригада 2</option>
+            <option value="Team3">Бригада 3</option>
+        </select>
+        <br>
+
+        <label for="shift">Смена:</label>
+        <select id="shift" name="shift">
+            <option value="Shift1">Смена 1</option>
+            <option value="Shift2">Смена 2</option>
+            <option value="Shift3">Смена 3</option>
+        </select>
+        <br>
+
+        <button type="button" onclick="saveToCookies()">Сохранить</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
